@@ -4,6 +4,6 @@ block content
     h1 Message Form 
 
     form(action="/new", method="post")
-    input(type="text" placeholder="Name")
-    input(type="text" placeholder="Message")
-    button(type="submit") Submit
+        input(type="text" name="author" id="author" placeholder="Name")
+        input(type="text" name="messageText" id="messageText" placeholder="Message")
+        button(type="submit") Submit
